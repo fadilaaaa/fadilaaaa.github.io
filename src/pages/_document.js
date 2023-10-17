@@ -4,6 +4,14 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-75J8Z5QDJM"></script>
+<script>
+  {`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-75J8Z5QDJM');`}
+</script>
       <body>
       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W5C2VZCQ"
 height="0" width="0" style={{display:"none",visibility:"hidden"}}></iframe></noscript>
